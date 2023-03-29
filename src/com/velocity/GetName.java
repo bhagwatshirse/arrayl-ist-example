@@ -22,7 +22,8 @@ public class GetName {
 		System.out.println(nameList);
 		System.out.println(nameList.get(5));
 		System.out.println(nameList.size()-1);
-		nameList.remove(3);
+		
+		nameList.remove(2);
 		System.out.println(nameList);
 		//nameList.clear();
 		System.out.println(nameList);
