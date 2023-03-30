@@ -11,10 +11,12 @@ public class GetName {
 		System.out.println(nameList.size());
 		nameList.add("bhagwat");
 		nameList.add("gopal");
+		nameList.add("bhagwat");
 		nameList.add("ram");
 		nameList.add("vikas");
 		nameList.add("avinash");
 		System.out.println(nameList.size());
+		System.out.println(nameList.contains("ram"));
 		
 		System.out.println(nameList.get(4));
 		System.out.println(nameList);
